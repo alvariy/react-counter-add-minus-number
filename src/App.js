@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Number from './component/Number';
+import Counter from './component/Counter';
 
 import { tsConstructorType } from '@babel/types';
 
@@ -18,7 +18,7 @@ render(){
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         
-        <Number numberApi={this.state}/> 
+        <Counter numberApi={this.state}/> 
 
       </header>
     </div>
